@@ -99,20 +99,28 @@ p {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    max-width: 940px;
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 900px;
     margin: 0 auto;
-    grid-gap: 10px;
+    grid-gap: 5px;
+    border: 0;
 }
 
-.grid-item {
-    border: #25375e;
+/*.grid-item {
+    border: 5px solid #25375e;
     padding: 1em;
 }
-
+*/
 .box1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+.fit {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid #25375e;
 }
