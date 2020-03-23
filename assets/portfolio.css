@@ -69,12 +69,17 @@ img {
 }
 
 .section-title {
-    width: 20%;
-    float: left;
     font-size: 25px;
     text-align: right;
     color: #feadac;
     border-right: 3px solid #feadac;
+    display: inline;
+}
+
+.size {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: auto;
 }
 
 p {
@@ -100,3 +105,14 @@ p {
     grid-gap: 10px;
 }
 
+.grid-item {
+    border: #25375e;
+    padding: 1em;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
