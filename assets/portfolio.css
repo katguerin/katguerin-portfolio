@@ -7,6 +7,7 @@
 body {
     color: #25375e;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #666277;
 }
 
 header {
@@ -56,5 +57,46 @@ img {
 
 .citylights {
     margin: auto;
+}
+
+.top-right {
+    color: #d9b18f;
+    font-size: 30px;
+    position: absolute;
+    top: 300px;
+    right: 16px;
+    background-color: #25375e;
+}
+
+.section-title {
+    width: 20%;
+    float: left;
+    font-size: 25px;
+    text-align: right;
+    color: #feadac;
+    border-right: 3px solid #feadac;
+}
+
+p {
+    line-height: 1.7;
+    width: 80%;
+    float: right;
+    margin: 0 auto;
+}
+
+.content {
+    text-decoration: none;
+    color: #feadac;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 940px;
+    margin: 0 auto;
+    grid-gap: 10px;
 }
 
