@@ -1,1 +1,1 @@
-This is the beginning of my portfolio page. I realize it does not meet all the requirements and capeabilities of the entire module. I've been trying to catch up. Hopefully I can accomplish that this week and re-submit, just so you can see it...looking.....better. -_-*
+This is the beginning of my portfolio page. I realize it does not meet all the requirements and capabilities of the entire module. I've been trying to catch up. Hopefully I can accomplish that this week and re-submit, just so you can see it...looking.....better...obviously.
