@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #25375e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #666277;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #feadac;
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+header nav {
+    float: right;
+    margin: 5px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 12px;
+    font-size: 25px;
+}
+
+img {
+    height: auto;
+    background-size: cover;
+    background-position: center bottom;
+    max-width: 100%;
+}
+
+.mainphoto {
+    height: 275px;
+    overflow: hidden;
+}
+
+.citylights {
+    margin: auto;
+}
+
